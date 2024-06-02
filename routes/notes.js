@@ -18,4 +18,4 @@ const note = await notes.findOne(query);
 res.json(note);
 })
 
-module.exports = router
+module.exports = router;
